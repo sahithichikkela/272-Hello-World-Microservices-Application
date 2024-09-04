@@ -6,26 +6,26 @@ This repository contains a simple "Hello World" microservices application built 
     2. World Service: Returns a "World" message.
     3. Combined Service: Combines responses from the Hello and World services to return "Hello World".
 
-Install the following on machine:
+Install the following on the machine:
 
     1. Node.js 
         brew install node
         npm init -y
         npm install express
-    2. Docker
+    2. Docker - Desktop Application
     3. Minikube (with Kubernetes)
         brew install minikube
 
 Building Docker Images:
 
     1. For Hello Service: 
-        docker build -t your-docker-username/hello-service -f Dockerfile.hello .
+        docker build -t your-docker-username/hello-service .
     2. For World Service: 
-        docker build -t your-docker-username/world-service -f Dockerfile.world .
+        docker build -t your-docker-username/world-service .
     3. For Combined result: 
-        docker build -t your-docker-username/microservice-result-service -f Dockerfile.result .
+        docker build -t your-docker-username/microservice-result-service .
 
-Pushing Docker Images:
+Pushing Docker Images to Docker Hub:
 
     1. For Hello Service:
         docker push your-docker-username/hello-service
@@ -34,7 +34,7 @@ Pushing Docker Images:
     3. For Hello World Service:
         docker push your-docker-username/microservice-result-service
 
-Deploy the Services on Kubernetes :
+Deploying Microservices on Kubernetes:
 
     1. For Hello Service:
         kubectl apply -f hello-deployment.yaml                 
@@ -59,13 +59,13 @@ Accessing the Services:
     3. For Hello World Service:
         minikube service microservice-result-service 
 
-These will give you the URLs in the following format:
+    These commands will provide URLs for accessing the services, for example:
 
-    http://127.0.0.1:xxxxx/hello - Displays "Hello"
-    http://127.0.0.1:xxxxx/world - Displays "World"
-    http://127.0.0.1:xxxxx/combined - Displays "Hello World"
+        http://127.0.0.1:50748/hello - Displays "Hello"
+        http://127.0.0.1:50850/world - Displays "World"
+        http://127.0.0.1:51496/combined - Displays "Hello World"
 
-Docker Hub images:
+Links to Docker Hub images:
 
     1. hello-service image
         https://hub.docker.com/repository/docker/sahithichikkela/hello-service/general
