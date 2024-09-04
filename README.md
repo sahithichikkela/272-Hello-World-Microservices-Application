@@ -19,20 +19,20 @@ Install the following on machine:
 Building Docker Images:
 
     1. For Hello Service: 
-        docker build -t sahithichikkela/hello-service -f Dockerfile.hello .
+        docker build -t your-docker-username/hello-service -f Dockerfile.hello .
     2. For World Service: 
-        docker build -t sahithichikkela/world-service -f Dockerfile.world .
+        docker build -t your-docker-username/world-service -f Dockerfile.world .
     3. For Combined result: 
-        docker build -t sahithichikkela/microservice-result-service -f Dockerfile.result .
+        docker build -t your-docker-username/microservice-result-service -f Dockerfile.result .
 
 Pushing Docker Images:
 
     1. For Hello Service:
-        docker push sahithichikkela/hello-service
+        docker push your-docker-username/hello-service
     2. For World Service:
-        docker push sahithichikkela/world-service
+        docker push your-docker-username/world-service
     3. For Hello World Service:
-        docker push sahithichikkela/microservice-result-service
+        docker push your-docker-username/microservice-result-service
 
 Deploy the Services on Kubernetes :
 
