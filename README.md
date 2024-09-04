@@ -64,3 +64,12 @@ These will give you the URLs in the following format:
     http://127.0.0.1:xxxxx/hello - Displays "Hello"
     http://127.0.0.1:xxxxx/world - Displays "World"
     http://127.0.0.1:xxxxx/combined - Displays "Hello World"
+
+Docker Hub images:
+
+    1. hello-service image
+        https://hub.docker.com/repository/docker/sahithichikkela/hello-service/general
+    2. world-service image
+        https://hub.docker.com/repository/docker/sahithichikkela/world-service/general
+    3. combined-service image
+        https://hub.docker.com/repository/docker/sahithichikkela/microservice-result-service/general
