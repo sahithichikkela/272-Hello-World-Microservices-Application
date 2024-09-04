@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservice-result-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: microservice-result
+  template:
+    metadata:
+      labels:
+        app: microservice-result
+    spec:
+      containers:
+      - name: microservice-result
+        image: sahithichikkela/microservice-result-service:latest
+        ports:
+        - containerPort: 3003
