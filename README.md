@@ -73,7 +73,7 @@ Accessing the Services:
             | default   | hello-service |             | http://127.0.0.1:50748 |
             |-----------|---------------|-------------|------------------------|
 
-            <img width="1464" alt="Screenshot 2024-09-04 at 10 03 03 PM" src="https://github.com/user-attachments/assets/e2c6c299-1da3-428e-b787-bb6378d4feb5">
+<img width="1464" alt="Screenshot 2024-09-04 at 10 03 03 PM" src="https://github.com/user-attachments/assets/beda3774-fd4d-4f11-af76-38aa8be64cd5">
 
 
             http://127.0.0.1:50748/hello - Displays "Hello"
@@ -87,7 +87,7 @@ Accessing the Services:
             | default   | world-service |             | http://127.0.0.1:50850 |
             |-----------|---------------|-------------|------------------------|
             
-            <img width="1456" alt="Screenshot 2024-09-04 at 10 03 19 PM" src="https://github.com/user-attachments/assets/cb2d91c3-28a2-47cb-833c-d0791d30d369">
+<img width="1456" alt="Screenshot 2024-09-04 at 10 03 19 PM" src="https://github.com/user-attachments/assets/cb2d91c3-28a2-47cb-833c-d0791d30d369">
 
             http://127.0.0.1:50850/world - Displays "World"
             
@@ -100,7 +100,7 @@ Accessing the Services:
             | default   | microservice-result-service |             | http://127.0.0.1:51496 |
             |-----------|-----------------------------|-------------|------------------------|
             
-            <img width="1453" alt="Screenshot 2024-09-04 at 10 03 42 PM" src="https://github.com/user-attachments/assets/de1a8e74-40a1-48fd-a322-6593cb6dc819">
+<img width="1453" alt="Screenshot 2024-09-04 at 10 03 42 PM" src="https://github.com/user-attachments/assets/de1a8e74-40a1-48fd-a322-6593cb6dc819">
 
             http://127.0.0.1:51496/combined - Displays "Hello World"
 
